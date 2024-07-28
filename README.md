@@ -9,3 +9,14 @@ The cart is attached to an un-actuated joint on the cart, that moves along a fri
 ![Inverted Pendulum](image.png)
 
 
+## TensorFlow and Keras
+The program utilises TensorFlow 2.3.0 (Sorry Windows peeps) and both Keras and keras-rl2
+```bash
+pip install tensorflow==2.3.0 keras keras-rl2 gym
+```
+This also run in a python evironment using Python3.11
+```bash
+py -3.11 -m venv tf_env
+tf_env\Scripts\activate
+pip install tensorflow
+```
