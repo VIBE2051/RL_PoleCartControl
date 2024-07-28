@@ -10,7 +10,7 @@ The cart is attached to an un-actuated joint on the cart, that moves along a fri
 
 
 ## TensorFlow and Keras
-The program utilises TensorFlow 2.3.0 (Sorry Windows peeps) and both Keras and keras-rl2
+The program utilises TensorFlow 2.3.0 and both Keras and keras-rl2
 ```bash
 pip install tensorflow==2.3.0 keras keras-rl2 gym
 ```
